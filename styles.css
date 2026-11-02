@@ -220,7 +220,12 @@ address p { margin: 0; }
 }
 .telefono:hover { text-decoration: underline; }
 
-.aviso { margin: 1rem 0 0; color: #5a4538; max-width: 26rem; }
+.horario__titulo { font-size: 1.6rem; font-weight: 600; color: var(--cafe); margin-top: 1.8rem; }
+
+.horario { border-collapse: collapse; margin-top: 0.6rem; width: 100%; max-width: 22rem; }
+.horario th, .horario td { text-align: left; padding: 0.45rem 0; border-bottom: 1px dotted var(--terracota); }
+.horario th { font-weight: 700; padding-right: 1.5rem; }
+.horario td { font-variant-numeric: tabular-nums; }
 
 .enlaces { display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 1.6rem 0 0; font-weight: 700; }
 .enlaces a { color: var(--cafe); text-underline-offset: 0.25em; }
